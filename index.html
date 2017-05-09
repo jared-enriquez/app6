@@ -1,0 +1,299 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app6-tema.min.css"
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/imagen9.jpg','imagenes/imagen13.jpg','imagenes/imagen15.jpg','imagenes/imagen16.jpeg')"> 
+ <div data-role="page"id="Principal" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+     <h1>Batalla del 5 de mayo</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+    <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>4 de Mayo</h2>
+           </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+           <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>5 de Mayo</h2>
+           </a>
+         </li>
+         <li class="ui-first-child ui-last-child"> 
+           <a href="#page4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Heroes de la Batalla</h2>
+           </a>
+        </li>
+         <li class="ui-first-child ui-last-child"> 
+           <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Monumentos de la Batalla </h2>
+           </a>
+        </li>
+         <li class="ui-first-child ui-last-child"> 
+           <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Inicio del Conflicto</h2>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/5.jpg" alt="5" title="5" id="wows1_0"/></li>
+		<li><img src="data1/images/5_de_mayo.jpg" alt="5 de mayo" title="5 de mayo" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla.jpg" alt="batalla" title="batalla" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla1.jpg" alt="batalla1" title="batalla1" id="wows1_3"/></li>
+		<li><img src="data1/images/batalla2.jpg" alt="batalla2" title="batalla2" id="wows1_4"/></li>
+		<li><img src="data1/images/batallade5demayo.jpg" alt="batallade5demayo" title="batallade5demayo" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/franceses.jpg" alt="cssslider" title="franceses" id="wows1_6"/></a></li>
+		<li><img src="data1/images/fuerte.jpg" alt="fuerte" title="fuerte" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.jpg" alt="5"/>1</span></a>
+		<a href="#" title="5 de mayo"><span><img src="data1/tooltips/5_de_mayo.jpg" alt="5 de mayo"/>2</span></a>
+		<a href="#" title="batalla"><span><img src="data1/tooltips/batalla.jpg" alt="batalla"/>3</span></a>
+		<a href="#" title="batalla1"><span><img src="data1/tooltips/batalla1.jpg" alt="batalla1"/>4</span></a>
+		<a href="#" title="batalla2"><span><img src="data1/tooltips/batalla2.jpg" alt="batalla2"/>5</span></a>
+		<a href="#" title="batallade5demayo"><span><img src="data1/tooltips/batallade5demayo.jpg" alt="batallade5demayo"/>6</span></a>
+		<a href="#" title="franceses"><span><img src="data1/tooltips/franceses.jpg" alt="franceses"/>7</span></a>
+		<a href="#" title="fuerte"><span><img src="data1/tooltips/fuerte.jpg" alt="fuerte"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+      <h4> Oscar Jared Enriquez López </h4>
+      <h4> Aplicacion 6 </h4>
+        <img src="res/android/mdpi.png" width="56" height="46">
+      </div>
+      </div>
+      
+      <div data-role="page"id="page2" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1><center> 4 de MAYO </center></h1><br>
+      </div>
+      <h3>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.<br>
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.<br>
+Haci a las 11 de la mañana , cuando las tropas republicanas pasaban por el pueblo de San Gregorio Azomp a (unos 10 kilómetros al suroeste de Cholula), se encontraron con unos 500 jinetes reaccionarios que el general Márquez habí a destacado hacia Cholula . Se cambiaron algunos tiros entre ambos adversarios y, después que los republicanos se desplegaron para atacar a sus enemigos, éstos emprendieron la retirada para el pueblo de Atlixco , en donde se encontraba el grueso de su fuerza. Durante su marcha retrógrada fueron perseguidos por los jinetes del general Carbajal, a los que personalmente dirigió el general O'Horán. <br>
+Pocas horas después, al llegar al puente cercano al rancho de los Molinos, en donde el camino cruzaba la profunda barranca de márgene s abruptas en cuyo fondo corre el río Alseseca (unos 7 Kms. al noreste de Atlixco), los reaccionarios se establecieron en él y trataron de disputar el paso a los republicanos; éstos nuevamente se desplegaron, desbordaron la posición enemiga y con todo brío forzaron el paso del puente a los gritos victoriosos de "Viv a México v "Muera n los traidores", obligando a sus enemigos a emprender la retirada hasta el pueblo de Atlixco, en cuyos aledaños el general Márque z todav ía presentó alguna resistencia. Fue obligado finalmente a retirarse para el rumbo de Izúcar con toda su fuerza, dejando abandonadas en Atlixco unas piezas de artillería y otros pertrechos.<br>
+Hacia las 6 de la tarde de ese mismo día, después de una larga jornada, la tropa republicana ocupó el pueblo de Atlixco y el general O'Horán rindió</h3>
+              <div data-role="main" class="ui-content" align="center">
+    <div style="width:25%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://es.wikipedia.org/wiki/Batalla_de_Atlixco" target="_self" data-role="button">
+           <h4>Mas información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Oscar Jared Enriquez López </h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+      <div data-role="page"id="page3" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1><center> 5 de MAYO </center></h1><br>
+      </div>
+      <h3>A las 9:15 de la mañana del 5 de mayo, los franceses aparecieron en el horizonte, avanzando desde la cercana Hacienda de Rementería, cruzando fuego con las guerrillas de caballería que se batían en retirada y que no se replegaron hasta que las líneas francesas estuvieron formadas y listas para avanzar. La batalla se inició en forma a las 11:15 de la mañana, anunciándose con un cañonazo desde el Fuerte de Guadalupe y acompañado por los repiques de las campanas de la ciudad. En ese momento se dio una maniobra sorpresiva: la columna francesa, que venía avanzando en orden de oriente a poniente, se dividió en dos: la primera, compuesta por aproximadamente 4000 hombres y protegida con su artillería, dio un violento viraje hacia la derecha y se dirigió hacia los fuertes; mientras que la segunda columna, compuesta por el resto de la infantería, quedó como reserva. <br></h3>
+      <div data-role="collapsible" data-content-theme="false">
+       <h3>5 de mayo</h3>
+      <div>
+        <p><img src="imagenes/imagen7.jpg" width="27%" height="32%"></p>
+      </div>
+       </div>
+     <h3> Mientras, cuando la segunda columna llegó al Fuerte de Guadalupe protegida por una línea de tiradores, Porfirio Díaz acudió en auxilio de los Rifleros de San Luis Potosí, que estaban a punto de ser rodeados. Movió en columna al Batallón Guerrero, a las órdenes del coronel Jiménez, y le ganó el terreno a los franceses. Para apoyar envió al resto de las tropas de Oaxaca, con los coroneles Espinoza y Loaeza a la cabeza, con lo que se logró expulsar al enemigo de las cercanías. El éxito alentó a Díaz, que destacó al Batallón Morelos con dos piezas de artillería a la izquierda, mientras por la derecha los Rifleros de San Luis Potosí se reponían de la pelea, antecedidos por una carga de los Lanceros de Oaxaca, trabándose un combate cuerpo a cuerpo que hizo retroceder a los atacantes.<br>
+En aquel momento, luego de ser repelidos por última vez, las efectivos franceses empezaron a huir, completamente dispersados. Se replegaron a la hacienda Los Álamos, para finalmente retirarse hacia Amozoc.</h3>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('5demayosus','','imagenes/imagen9.jpg',1)"><img src="imagenes/imagen6.jpg" width="394" height="240" id="5demayosus"></a></p>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Oscar Jared Enriquez López </h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page4" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1><center>
+         Heroes de la Batalla
+        </center></h1><br>
+      </div>
+      <center><h1>Ignacio Zaragoza</h1>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sustitucion3','','imagenes/imagen16.jpeg',1)"><img src="imagenes/imagen17.png" width="209" height="212" id="sustitucion3"></a></p></center>
+      
+         <div data-role="collapsible" data-content-theme="false">
+       <h4>Información</h4>
+         <div>
+          <p><h3>Ignacio Zaragoza Seguin nació el 24 de marzo de 1829 en la ciudad de Presidio de La Bahía de Espíritu Santo, actualmente Goliad, al sur de Texas, Estados Unidos. Fue el segundo hijo del matrimonio formado por Miguel Zaragoza Valdez y María de Jesús Seguin Martínez. A los cinco años de edad, y tras la independencia del estado de Texas, su familia se muda a Matamoros en el Estado de Tamaulipas donde inicia sus estudios y diez años después, se muda a Monterrey, Nuevo León Durante algunos años se inclina por la carrera sacerdotal, pero la abandona, quizá para continuar con el ejemplo de su padre quien era soldado de infantería.</h3></p>
+         <br> 
+      </div>
+  </div>
+  <center><h1>Miguel Negrete</h1>
+    <p><img src="imagenes/imagen18.jpg" width="189" height="207"></p>
+  </center>
+      
+         <div data-role="collapsible" data-content-theme="false">
+       <h4>Información</h4>
+         <div>
+          <p><h3>Miguel Negrete Novoa fue un general militar nacido el 8 de mayo de 1824 en Tepeaca, Puebla; es considerado el principal héroe de la batalla del 5 de mayo de 1862 después del General Ignacio Zaragoza.<br>
+
+Negrete fue investido con el cargo de general en 1862 por orden de Ignacio Zaragoza, fue el único militar nacido en Tepeaca con el grado de General de División, por ese motivo, su recuerdo se mantiene vivo como en monumento en la Plaza de Armas, o la inscripción de su nombre en letras de oro en el muro de honor del Congreso del Estado. </h3></p>
+         <br> 
+      </div>
+  </div>
+  
+    <center><h1>Antonio Carvajal</h1>
+    <p><img src="imagenes/imagen19.JPG" width="212" height="193"></p>
+    <p>Monumento dedicado a Antonio Carbajal.</p>
+  </center>
+      
+         <div data-role="collapsible" data-content-theme="false">
+       <h4>Información</h4>
+         <div>
+          <p><h3>Vencedor de la batalla del 4 de mayo en Atlixco, que originó el triunfo del 5 de mayo de 1862, en Puebla.<br>
+Todavía el 28 de abril, Carvajal ayudó a Zaragoza en el combate de Acultzingo, al siguiente día, en dos columnas, marchan al encuentro de las batallas de la inmortalidad: Zaragoza se dirige a Puebla y Carvajal a Atlixco. Zaragoza llega el 3 de mayo por la mañana y Carvajal llega en la noche. Recibe noticias de que Márquez está acampado cerca de Atlixco, pero también Leonardo Márquez recibe la noticia de que su odiado enemigo, el Gral. Carvajal, por el oriente, está cerca de la plaza, y a marchas forzadas llegó al centro de la plaza. </h3></p>
+         <br> 
+      </div>
+  </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Oscar Jared Enriquez López </h4>
+        <h4> Aplicacion 6</h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page5" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1><center>
+         Monumentos de la batalla
+        </center></h1><br>
+      </div>
+      <h1><center> Monumento a la victoria del 5 de Mayo</center></h1>
+      <h3>Justo antes de llegar a los Fuertes, uno pasa por este monumento, y muchas veces pasa casi desapercibido, pero no debe ser así ya que es de gran importancia. El Monumento a la Victoria (5 de mayo) fue hecha por el escultor y pintor mexicano Ernesto Tamariz.<br>
+Recibe su nombre debido a que aquí el ejercito mexicano libró una poderosa batalla contra el ejercito francés, durante la Segunda Intervención Francesa el 5 de mayo de 1862. Dicha batalla fue liderada por el General Ignacio Zaragoza, que estaba a cargo del Ejercito de Oriente. La batalla fue ganada por el ejercito mexicano, lo que llenó de orgullo al país, y sobre todo a la gente de Puebla. </h3>
+<div data-role="collapsible" data-content-theme="false">
+       <h3>Monumento</h3>
+      <div>
+        <CENTER>
+          <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('monumentos','','imagenes/imagen13.jpg',1)"><img src="imagenes/imagen12.jpg" width="213" height="241" id="monumentos"></a></p></CENTER>
+            <div data-role="main" class="ui-content" align="center">
+    <div style="width:25%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://www.yelp.com.mx/biz/monumento-a-la-victoria-5-de-mayo-puebla" target="_self" data-role="button">
+           <h4>monumento</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      </div>
+       </div>
+       <h1><center> Monumento a los heroes del 5 de Mayo</center></h1>
+       <h3>Este monumento está justo frente al Parque Analco, sobre el Boulevard 5 de Mayo; es pequeño pero creo que es uno de los más representativos de la historia esta ciudad. Su nombre es el Monumento a los Héroes del 5 de Mayo, y es un pequeño homenaje a los soldados y pobladores que se enfrentaron al ejercito francés el 5 de mayo de 1862, durante la Segunda Invasión Francesa en México. </h3>
+       <div data-role="collapsible" data-content-theme="false">
+       <h3>Monumento      </h3>
+       <div>
+        <CENTER>
+          <h3><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sustitucion2','','imagenes/imagen15.jpg',1)"><img src="imagenes/imagen14.jpg" width="229" height="275" id="sustitucion2"></a></h3>
+        </CENTER>
+            <div data-role="main" class="ui-content" align="center">
+    <div style="width:25%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://www.yelp.com.mx/biz/monumento-a-los-h%C3%A9roes-de-5-de-mayo-puebla" target="_self" data-role="button">
+           <h4>monumento</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      </div>
+       </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Oscar Jared Enriquez López </h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div> 
+      
+<div data-role="page"id="page6" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1><center>
+         Inicio del Conflicto
+        </center></h1><br>
+      </div>
+      <h3>Debido principalmente a la cantidad de deudas, , Inglaterra y España subscribieron el Convenio de Londres, por el cual se comprometieron a intervenir por el uso de la fuerza en México para reclamar sus derechos como acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los compromisos adquiridos y aplazó pagar la deuda a las naciones europeas. Tras desembarcar en Veracruz, España e Inglaterra aceptaron las explicaciones mexicanas dadas en los Tratados de La Soledad, los cuales tenían como fundamento, el respeto a la soberanía territorial, el reconocimiento de las naciones acreedoras al Estado Mexicano, la entrada al terreno de las negociaciones para llegar a acuerdos en común, que beneficiaría tanto a la República Mexicana, como a los intereses de las potencias invasoras, y por último, se permitiría que los soldados de los tres países se establecieran en las ciudades mexicanas de Orizaba, Córdoba y Tehuacán durante las negociaciones, debido a lo malsano del clima imperante en el puerto de Veracruz; en caso contrario, los soldados de las tres potencias se retirarían a las costas de Veracruz para así comenzar las hostilidades.<br>
+Solo los representantes de España e Inglaterra comprendieron la situación que guardaba la República Mexicana, al analizar los argumentos, decidieron negociar de manera independiente ante la autoridad mexicana, privilegiando a la nación mexicana con un triunfo diplomático, que dadas las difíciles circunstancias, permitió encauzar esfuerzos posteriormente hacia la intervención del Imperio Francés; pero ellos tenían otros planes. </h3>
+          <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" target="_self" data-role="button">
+           <h4>Mas información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <h4> Oscar Jared Enriquez López </h4>
+        <h4> Aplicacion 6 </h4>
+       <img src="res/android/mdpi.png" width="56" height="46">
+       </div>
+      </div>  
+</div>
+           
+</body>
+</html>
